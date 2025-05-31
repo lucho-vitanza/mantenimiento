@@ -1,0 +1,3 @@
+consulta_tecnica: agente_llamaindex
+analisis_fallas: agente_datos_struct
+razonamiento: agente_razonador
