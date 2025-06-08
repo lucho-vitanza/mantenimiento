@@ -5,7 +5,7 @@ from gestor_tipo_consulta import generar_payload_desde_input as ejecutar_consult
 from gestor_tipo_consulta import clasificar_tipo_consulta
 from parser_equipo import parsear_equipo
 from parser_fecha import interpretar_fecha
-from main import generar_payload_desde_input as ejecutar_consulta_estructurada
+from gestor_tipo_consulta import generar_payload_desde_input as ejecutar_consulta_estructurada
 
 # MCP Payload base
 class MCPPayload:

@@ -2,6 +2,11 @@
 import json
 from orquestador import orquestar_desde_input
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+
 def test_payload_generacion():
     prompt = "¿Qué tareas recomienda el fabricante para el compresor principal CMP-AIR-01?"
     payload = orquestar_desde_input(prompt)
